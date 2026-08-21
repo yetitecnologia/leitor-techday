@@ -1,0 +1,14 @@
+{
+  "name": "TechDay Leads",
+  "short_name": "TechDay",
+  "description": "Leitor de QR Code para captura de leads do TechDay",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050d1f",
+  "theme_color": "#050d1f",
+  "icons": [
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
