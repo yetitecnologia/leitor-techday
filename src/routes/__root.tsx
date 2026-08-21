@@ -78,19 +78,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "TechDay Leads" },
-      {
-        name: "description",
-        content: "Leitor de QR Code para captura de leads do TechDay.",
-      },
-      { name: "theme-color", content: "#050d1f" },
-      { name: "apple-mobile-web-app-capable", content: "yes" },
-      { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
-      { name: "apple-mobile-web-app-title", content: "TechDay" },
-      { property: "og:title", content: "TechDay Leads" },
-      { property: "og:description", content: "Leitor de QR Code para captura de leads do TechDay." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
