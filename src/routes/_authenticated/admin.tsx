@@ -13,11 +13,7 @@ export const Route = createFileRoute("/_authenticated/admin")({
       {
         name: "description",
         content: "Envie a planilha de participantes do TechDay para alimentar o leitor de QR Code.",
-      },
-      { property: "og:title", content: "Admin — Importar lista do TechDay" },
-      { property: "og:description", content: "Upload da planilha de participantes do TechDay." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
+      }
     ],
   }),
   component: Admin,

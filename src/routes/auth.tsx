@@ -9,11 +9,7 @@ export const Route = createFileRoute("/auth")({
       {
         name: "description",
         content: "Login da área administrativa do leitor de QR Code do TechDay.",
-      },
-      { property: "og:title", content: "Acesso admin — TechDay Leads" },
-      { property: "og:description", content: "Login da área administrativa do TechDay Leads." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
+      }
     ],
   }),
   component: AuthPage,

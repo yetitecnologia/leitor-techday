@@ -17,14 +17,7 @@ export const Route = createFileRoute("/")({
         name: "description",
         content:
           "Leia o QR Code do ingresso do TechDay, confira os dados do participante e envie o lead em um toque.",
-      },
-      { property: "og:title", content: "TechDay Leads — Leitor de QR Code" },
-      {
-        property: "og:description",
-        content: "Captura de leads do TechDay pela leitura do QR Code do ingresso.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      }
     ],
   }),
   component: Index,
@@ -174,10 +167,6 @@ function Index() {
           </button>
         </section>
       )}
-
-      <Link to="/admin" className="text-xs text-muted-foreground underline-offset-4 hover:underline">
-        Área administrativa
-      </Link>
     </main>
   );
 }
