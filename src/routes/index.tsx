@@ -83,7 +83,7 @@ function Index() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-30 bg-background px-5 py-10">
+    <main className="flex min-h-screen flex-col items-center justify-center gap-20 bg-background px-5 py-10">
       <header className="text-center">
         <img src="/logo.png" alt="TechDay" className="mx-auto h-20" />
       </header>
