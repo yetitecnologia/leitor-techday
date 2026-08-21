@@ -83,10 +83,9 @@ function Index() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-8 bg-background px-5 py-10">
+    <main className="flex min-h-screen flex-col items-center justify-center gap-30 bg-background px-5 py-10">
       <header className="text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-primary">TechDay</p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-foreground">Leitor de QR Code</h1>
+        <img src="/logo.png" alt="TechDay" className="mx-auto h-20" />
       </header>
 
       {estado.tipo === "inicio" && (
